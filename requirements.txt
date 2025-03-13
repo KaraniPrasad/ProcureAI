@@ -1,0 +1,12 @@
+langchain
+python-dotenv
+langchain-openai
+langchain-core
+langchain-community
+langchain_groq
+langchainhub
+langgraph
+langgraph-cli[inmem]
+youtube-transcript-api
+streamlit
+phidata[llm]>=2.3.3
