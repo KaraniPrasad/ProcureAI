@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 from typing import Optional, Tuple
-from state.procurement_state import ProcurementState
+from src.procurement_ai.state.procurement_state import ProcurementState
 
 def handle_file_upload() -> Tuple[Optional[pd.DataFrame], Optional[str]]:
     """Handle file upload and validation"""

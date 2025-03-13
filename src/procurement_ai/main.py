@@ -2,13 +2,13 @@ import os
 import logging
 import streamlit as st
 from dotenv import load_dotenv
-from graph.workflow import create_procurement_workflow
-from llms.setup import get_groq_llm
-from ui.sidebar import render_sidebar
-from ui.results import display_results
-from ui.upload import handle_file_upload
+from src.procurement_ai.graph.workflow import create_procurement_workflow
+from src.procurement_ai.llms.setup import get_groq_llm
+from src.procurement_ai.ui.sidebar import render_sidebar
+from src.procurement_ai.ui.results import display_results
+from src.procurement_ai.ui.upload import handle_file_upload
 import pandas as pd
-from state.procurement_state import ProcurementState, ProcurementConfig
+from src.procurement_ai.state.procurement_state import ProcurementState, ProcurementConfig
 
 load_dotenv()
 

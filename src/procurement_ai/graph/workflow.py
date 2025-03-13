@@ -1,8 +1,8 @@
 from langgraph.graph import StateGraph, END
-from nodes.analysis import analyze_requisitions
-from nodes.recommendations import suggest_aggregation
-from nodes.sourcing import create_sourcing_events
-from state.procurement_state import ProcurementState
+from src.procurement_ai.nodes.analysis import analyze_requisitions
+from src.procurement_ai.nodes.recommendations import suggest_aggregation
+from src.procurement_ai.nodes.sourcing import create_sourcing_events
+from src.procurement_ai.state.procurement_state import ProcurementState
 
 def create_procurement_workflow():
     workflow = StateGraph(ProcurementState)

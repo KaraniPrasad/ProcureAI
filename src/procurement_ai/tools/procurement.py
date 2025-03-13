@@ -7,7 +7,7 @@ from typing import Dict, List
 import pandas as pd
 from sklearn.cluster import DBSCAN
 from sklearn.feature_extraction.text import TfidfVectorizer
-from state.procurement_state import ProcurementState
+from src.procurement_ai.state.procurement_state import ProcurementState
 
 logger = logging.getLogger(__name__)
 
