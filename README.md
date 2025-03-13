@@ -13,4 +13,4 @@ short_description: Demand Aggregation based on commodity and region in sourcing.
 
 ### End To End Agentic AI Projects
 
-The project is in development
+The project is a development
