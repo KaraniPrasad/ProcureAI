@@ -8,7 +8,7 @@ sdk_version: 1.42.0
 app_file: app.py
 pinned: false
 license: apache-2.0
-short_description: Demand Aggregation based on commodity and region in sourcing.
+short_description: Demand Aggregation for sourcing.
 ---
 
 ### End To End Agentic AI Projects
