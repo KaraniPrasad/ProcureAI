@@ -1,7 +1,7 @@
 ---
 title: Demand Aggregator for Procurement
 emoji: 🐨
-colorFrom: blue
+colorFrom: Sky blue
 colorTo: red
 sdk: streamlit
 sdk_version: 1.42.0
