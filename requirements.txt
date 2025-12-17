@@ -20,4 +20,5 @@ langgraph-cli[inmem]
 youtube-transcript-api
 streamlit
 phidata[llm]>=2.3.3
+scikit-learn
 
